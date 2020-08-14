@@ -13,3 +13,4 @@ end
 puts my_collect(['ruby', 'javascript', 'python', 'objective-c']) { |language| language.upcase }
 #whiel loop has no do
 #the do mess up eerythignggg
+#and u must update the counter. duhhhh
