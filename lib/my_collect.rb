@@ -1,3 +1,4 @@
+require binding
 def my_collect(array)
   i = 0
   newarray = []
@@ -5,6 +6,7 @@ def my_collect(array)
     newarray << yield(array[i])
   end
   newarray
+  binding.pry
 end
 
 puts my_collect(['ruby', 'javascript', 'python', 'objective-c']) { |language| language.upcase }
