@@ -7,7 +7,6 @@ def my_collect(array)
     i += 1
   end
   newarray
-  binding.pry
 end
 
 puts my_collect(['ruby', 'javascript', 'python', 'objective-c']) { |language| language.upcase }
