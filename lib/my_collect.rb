@@ -7,6 +7,4 @@ def my_collect(array)
   newarray
 end
 
-puts my_collect(['ruby', 'javascript', 'python', 'objective-c']) do |language|
-  language.upcase
-end
+puts my_collect(['ruby', 'javascript', 'python', 'objective-c']) { |language| language.upcase }
